@@ -12,7 +12,7 @@ def theory(n):
         return('fail')
 
 def test():
-    for i in range(999):
+    for i in range(9999):
         
         if theory(i) == 'fail':
             print("FAIL")
